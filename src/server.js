@@ -13,7 +13,7 @@ app.use(express.json());
 
 // Test route
 app.get("/", (req, res) => {
-  res.send("Backend is running 🚀");
+  res.send("Backend iis running 🚀");
 });
 
 // Start server
